@@ -17,6 +17,12 @@ TURTLE and TriG are well established syntaxes for RDF and are supported by many 
 TriG allows metadata to be associated with named graphs.
 This allows separate parts of a CGMES model to be stored in a single text file and avoids the need to use an opaque ZIP archive.
 
+## SPARQL Update
+
+CIM/XML `DifferenceModel` files are also a custom format that lacks widespread support.
+[SPARQL 1.1 Update](https://www.w3.org/TR/sparql11-update/) is a standard language for specifying updates to RDF graphs.
+The difference models from the Small Grid Test Configuration have been converted to SPARQL Update (.rq) format.
+
 ## Note
 
 This is an unofficial source for the Small Grid Test Configuration.
