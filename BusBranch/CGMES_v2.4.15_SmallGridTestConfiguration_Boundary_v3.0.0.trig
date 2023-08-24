@@ -159,10 +159,10 @@
 		<http://entsoe.eu/CIM/SchemaExtension/3/1#TopologicalNode.toEndNameTso> "Svenska Kraftnät" ;
 		cim:TopologicalNode.ConnectivityNodeContainer <urn:uuid:0b5bf2ef-a008-4b9a-9fe9-3c528c8bec50> ;
 		cim:TopologicalNode.BaseVoltage <urn:uuid:af264e1c-ab1f-4f3b-88c4-ab019b9abf07> .
-	<urn:uuid:#_183d126d-2522-4ff2-a8cd-c5016cf09c1b> rdf:type cim:ConnectivityNode ;
+	<urn:uuid:183d126d-2522-4ff2-a8cd-c5016cf09c1b> rdf:type cim:ConnectivityNode ;
 		cim:ConnectivityNode.TopologicalNode <urn:uuid:e7a3d162-f09d-4dc7-8687-e7bc65522b58> .
-	<urn:uuid:#_49831d24-33e9-4233-8424-3f88186a924e> rdf:type cim:ConnectivityNode ;
+	<urn:uuid:49831d24-33e9-4233-8424-3f88186a924e> rdf:type cim:ConnectivityNode ;
 		cim:ConnectivityNode.TopologicalNode <urn:uuid:26a070b9-db0c-47cd-9991-0a461576aec2> .
-	<urn:uuid:#_8a5a6e86-55e4-476b-a3bd-7832e6168569> rdf:type cim:ConnectivityNode ;
+	<urn:uuid:8a5a6e86-55e4-476b-a3bd-7832e6168569> rdf:type cim:ConnectivityNode ;
 		cim:ConnectivityNode.TopologicalNode <urn:uuid:c46e8cb6-b2b9-4031-b5c8-da2735658f1a> .
 }
