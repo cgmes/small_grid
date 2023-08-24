@@ -1,0 +1,20 @@
+BASE <http://iec.ch/TC57/2013/CIM-schema-cim16#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX cim: <http://iec.ch/TC57/2013/CIM-schema-cim16#>
+PREFIX entsoe: <http://entsoe.eu/CIM/SchemaExtension/3/1#>
+
+WITH <urn:uuid:6fdb7290-de0d-11e2-8f45-b8f6b1180b6d>
+DELETE {
+	<urn:uuid:29875e10-c966-11e1-af5f-b8f6b1180b6d> rdf:type rdf:Description ;
+		<Location.PowerSystemResources> <urn:uuid:0473e004-c766-11e1-8775-005056c00008> .
+
+	<urn:uuid:bc24ac70-c98c-11e1-9c61-406c8f32ef58> rdf:type rdf:Description ;
+		<Location.PowerSystemResources> <urn:uuid:0475dbd8-c766-11e1-8775-005056c00008> .
+}
+INSERT {
+	<urn:uuid:29875e10-c966-11e1-af5f-b8f6b1180b6d> rdf:type rdf:Description ;
+		<Location.PowerSystemResources> <urn:uuid:11d10c55-94cc-47e4-8e24-bc5ac4d026c0> .
+
+	<urn:uuid:bc24ac70-c98c-11e1-9c61-406c8f32ef58> rdf:type rdf:Description ;
+		<Location.PowerSystemResources> <urn:uuid:d9a49bc9-f4b8-4bfa-9d0f-d18f12f2575b> .
+}

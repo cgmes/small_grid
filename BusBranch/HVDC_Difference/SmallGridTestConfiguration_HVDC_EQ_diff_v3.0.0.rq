@@ -1,0 +1,605 @@
+BASE <http://iec.ch/TC57/2013/CIM-schema-cim16#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX cim: <http://iec.ch/TC57/2013/CIM-schema-cim16#>
+PREFIX entsoe: <http://entsoe.eu/CIM/SchemaExtension/3/1#>
+
+WITH <urn:uuid:2399cbd2-9a39-11e0-aa80-0800200c9a66_EU>
+DELETE {
+	<urn:uuid:046ba2aa-c766-11e1-8775-005056c00008> rdf:type rdf:Description ;
+		<Terminal.ConductingEquipment> <urn:uuid:0473e004-c766-11e1-8775-005056c00008> .
+
+	<urn:uuid:04479fea-c766-11e1-8775-005056c00008> rdf:type rdf:Description ;
+		<Terminal.ConductingEquipment> <urn:uuid:0473e004-c766-11e1-8775-005056c00008> .
+
+	<urn:uuid:04531196-c766-11e1-8775-005056c00008> rdf:type rdf:Description ;
+		<Terminal.ConductingEquipment> <urn:uuid:0475dbd8-c766-11e1-8775-005056c00008> .
+
+	<urn:uuid:0461b792-c766-11e1-8775-005056c00008> rdf:type rdf:Description ;
+		<Terminal.ConductingEquipment> <urn:uuid:0475dbd8-c766-11e1-8775-005056c00008> .
+
+	<urn:uuid:0473e004-c766-11e1-8775-005056c00008> rdf:type <ACLineSegment> ;
+		<ACLineSegment.b0ch> "0" ;
+		<ACLineSegment.bch> "0.0008719008" ;
+		<ACLineSegment.g0ch> "0" ;
+		<ACLineSegment.gch> "0" ;
+		<ACLineSegment.r> "2.24576" ;
+		<ACLineSegment.r0> "2.290675" ;
+		<ACLineSegment.shortCircuitEndTemperature> "80" ;
+		<ACLineSegment.x> "26.136" ;
+		<ACLineSegment.x0> "0" ;
+		<Conductor.length> "305.694" ;
+		<Equipment.aggregate> "false" ;
+		<IdentifiedObject.name> "30-38" ;
+		<ConductingEquipment.BaseVoltage> <urn:uuid:60ee59f3-5ed7-4551-b623-f4346554b22a> ;
+		<Equipment.EquipmentContainer> <urn:uuid:a6ad4495-1dd3-990a-7974-5a220f0f3c12> .
+
+	<urn:uuid:0475dbd8-c766-11e1-8775-005056c00008> rdf:type <ACLineSegment> ;
+		<ACLineSegment.b0ch> "0" ;
+		<ACLineSegment.bch> "0.000446281" ;
+		<ACLineSegment.g0ch> "0" ;
+		<ACLineSegment.gch> "0" ;
+		<ACLineSegment.r> "0.83248" ;
+		<ACLineSegment.r0> "0.8491296" ;
+		<ACLineSegment.shortCircuitEndTemperature> "80" ;
+		<ACLineSegment.x> "9.679999" ;
+		<ACLineSegment.x0> "0" ;
+		<Conductor.length> "113.4584" ;
+		<Equipment.aggregate> "false" ;
+		<IdentifiedObject.name> "63-64" ;
+		<ConductingEquipment.BaseVoltage> <urn:uuid:60ee59f3-5ed7-4551-b623-f4346554b22a> ;
+		<Equipment.EquipmentContainer> <urn:uuid:b771db57-bcf0-f6b6-0652-e276b3fb0657> .
+
+	<urn:uuid:a6ad4495-1dd3-990a-7974-5a220f0f3c12> rdf:type <Line> ;
+		<IdentifiedObject.name> "Container for 30-38" ;
+		<Line.Region> <urn:uuid:0472a781-c766-11e1-8775-005056c00008> .
+
+	<urn:uuid:b771db57-bcf0-f6b6-0652-e276b3fb0657> rdf:type <Line> ;
+		<IdentifiedObject.name> "Container for 63-64" ;
+		<Line.Region> <urn:uuid:0472a781-c766-11e1-8775-005056c00008> .
+}
+INSERT {
+	<urn:uuid:046ba2aa-c766-11e1-8775-005056c00008> rdf:type rdf:Description ;
+		<Terminal.ConductingEquipment> <urn:uuid:b08e9e50-4e0c-4ac0-9f21-4a27429caeb2> .
+
+	<urn:uuid:04479fea-c766-11e1-8775-005056c00008> rdf:type rdf:Description ;
+		<Terminal.ConductingEquipment> <urn:uuid:ffd940c8-03c8-4dcf-ad46-62018a0d813d> .
+
+	<urn:uuid:04531196-c766-11e1-8775-005056c00008> rdf:type rdf:Description ;
+		<Terminal.ConductingEquipment> <urn:uuid:6a131803-f462-47e2-bc21-bda919364fe9> .
+
+	<urn:uuid:0461b792-c766-11e1-8775-005056c00008> rdf:type rdf:Description ;
+		<Terminal.ConductingEquipment> <urn:uuid:9803b364-2a93-4f21-94b7-8bdbe27a16f2> .
+
+	<urn:uuid:7393a68e-c4e6-48dd-9347-543858363fdb> rdf:type <CsConverter> ;
+		<CsConverter.maxAlpha> "30" ;
+		<CsConverter.minAlpha> "5" ;
+		<CsConverter.ratedIdc> "90" ;
+		<CsConverter.operatingMode> "rectifier" ;
+		<CsConverter.pPccControl> "dcVoltage" ;
+		<CsConverter.targetAlpha> "13" ;
+		<CsConverter.targetGamma> "0" ;
+		<CsConverter.targetIdc> "0" ;
+		<ACDCConverter.baseS> "68.8" ;
+		<ACDCConverter.idleLoss> "0" ;
+		<ACDCConverter.maxUdc> "520" ;
+		<ACDCConverter.minUdc> "390" ;
+		<ACDCConverter.ratedUdc> "480" ;
+		<ACDCConverter.resistiveLoss> "0" ;
+		<ACDCConverter.switchingLoss> "0" ;
+		<ACDCConverter.p> "0" ;
+		<ACDCConverter.q> "0" ;
+		<ACDCConverter.targetPpcc> "0" ;
+		<ACDCConverter.targetUdc> "480" ;
+		<IdentifiedObject.name> "Conv1" ;
+		<Equipment.EquipmentContainer> <urn:uuid:d68844a9-2c41-4798-9f83-5fdf4d1f3955> .
+
+	<urn:uuid:9793118d-5ba1-4a9c-b2e0-db1d15be5913> rdf:type <CsConverter> ;
+		<CsConverter.maxGamma> "30" ;
+		<CsConverter.minGamma> "5" ;
+		<CsConverter.ratedIdc> "120" ;
+		<CsConverter.operatingMode> "inverter" ;
+		<CsConverter.pPccControl> "activePower" ;
+		<CsConverter.targetAlpha> "0" ;
+		<CsConverter.targetGamma> "17" ;
+		<CsConverter.targetIdc> "0" ;
+		<ACDCConverter.baseS> "84.4" ;
+		<ACDCConverter.idleLoss> "0" ;
+		<ACDCConverter.maxUdc> "520" ;
+		<ACDCConverter.minUdc> "390" ;
+		<ACDCConverter.ratedUdc> "480" ;
+		<ACDCConverter.resistiveLoss> "0" ;
+		<ACDCConverter.switchingLoss> "0" ;
+		<ACDCConverter.p> "-63.8" ;
+		<ACDCConverter.q> "0" ;
+		<ACDCConverter.targetPpcc> "-63.8" ;
+		<ACDCConverter.targetUdc> "0" ;
+		<IdentifiedObject.name> "Conv2" ;
+		<Equipment.EquipmentContainer> <urn:uuid:cfff319b-96bb-4e41-af91-9c2071a5b6f3> .
+
+	<urn:uuid:d6fde9fc-7f90-43c5-b0a4-f930c46f52d3> rdf:type <DCNode> ;
+		<IdentifiedObject.name> "DCN11" ;
+		<DCNode.DCEquipmentContainer> <urn:uuid:d68844a9-2c41-4798-9f83-5fdf4d1f3955> .
+
+	<urn:uuid:249c1fbb-af82-48ef-9fa7-6f97c237fb21> rdf:type <DCNode> ;
+		<IdentifiedObject.name> "DCN12" ;
+		<DCNode.DCEquipmentContainer> <urn:uuid:d68844a9-2c41-4798-9f83-5fdf4d1f3955> .
+
+	<urn:uuid:438f8a65-7c69-4881-a1f3-7b8f788eae70> rdf:type <DCNode> ;
+		<IdentifiedObject.name> "DCN21" ;
+		<DCNode.DCEquipmentContainer> <urn:uuid:cfff319b-96bb-4e41-af91-9c2071a5b6f3> .
+
+	<urn:uuid:ebd5e1b2-6775-4980-b112-1d7b974c747d> rdf:type <DCNode> ;
+		<IdentifiedObject.name> "DCN22" ;
+		<DCNode.DCEquipmentContainer> <urn:uuid:cfff319b-96bb-4e41-af91-9c2071a5b6f3> .
+
+	<urn:uuid:7780ec9e-6743-4c53-aac2-f123637d5274> rdf:type <ACDCConverterDCTerminal> ;
+		<ACDCTerminal.sequenceNumber> "2" ;
+		<ACDCTerminal.connected> "true" ;
+		<IdentifiedObject.name> "dcTerm11" ;
+		<ACDCConverterDCTerminal.DCConductingEquipment> <urn:uuid:7393a68e-c4e6-48dd-9347-543858363fdb> ;
+		<DCBaseTerminal.DCNode> <urn:uuid:d6fde9fc-7f90-43c5-b0a4-f930c46f52d3> .
+
+	<urn:uuid:c4af08e0-9608-4654-b74f-e359a7a29dfc> rdf:type <ACDCConverterDCTerminal> ;
+		<ACDCTerminal.sequenceNumber> "2" ;
+		<ACDCTerminal.connected> "true" ;
+		<IdentifiedObject.name> "dcTerm21" ;
+		<ACDCConverterDCTerminal.DCConductingEquipment> <urn:uuid:9793118d-5ba1-4a9c-b2e0-db1d15be5913> ;
+		<DCBaseTerminal.DCNode> <urn:uuid:438f8a65-7c69-4881-a1f3-7b8f788eae70> .
+
+	<urn:uuid:0193405c-4f37-421a-b7e6-9c4a8904eaf8> rdf:type <ACDCConverterDCTerminal> ;
+		<ACDCTerminal.sequenceNumber> "3" ;
+		<ACDCTerminal.connected> "true" ;
+		<IdentifiedObject.name> "dcTerm12" ;
+		<ACDCConverterDCTerminal.DCConductingEquipment> <urn:uuid:7393a68e-c4e6-48dd-9347-543858363fdb> ;
+		<DCBaseTerminal.DCNode> <urn:uuid:249c1fbb-af82-48ef-9fa7-6f97c237fb21> .
+
+	<urn:uuid:9b40dc62-2c36-4b70-b931-db436ddb3fad> rdf:type <ACDCConverterDCTerminal> ;
+		<ACDCTerminal.sequenceNumber> "3" ;
+		<ACDCTerminal.connected> "true" ;
+		<IdentifiedObject.name> "dcTerm22" ;
+		<ACDCConverterDCTerminal.DCConductingEquipment> <urn:uuid:9793118d-5ba1-4a9c-b2e0-db1d15be5913> ;
+		<DCBaseTerminal.DCNode> <urn:uuid:ebd5e1b2-6775-4980-b112-1d7b974c747d> .
+
+	<urn:uuid:48a72159-14e5-409a-af7e-ad56c18a6986> rdf:type <DCGround> ;
+		<IdentifiedObject.name> "DCGnd1" ;
+		<Equipment.EquipmentContainer> <urn:uuid:d68844a9-2c41-4798-9f83-5fdf4d1f3955> .
+
+	<urn:uuid:c5f9cc67-06f8-4806-abaa-c6c9ca43a05a> rdf:type <DCGround> ;
+		<IdentifiedObject.name> "DCGnd2" ;
+		<Equipment.EquipmentContainer> <urn:uuid:cfff319b-96bb-4e41-af91-9c2071a5b6f3> .
+
+	<urn:uuid:a03cc8fb-fe85-4a7e-b96e-5c074abed705> rdf:type <DCTerminal> ;
+		<ACDCTerminal.sequenceNumber> "1" ;
+		<ACDCTerminal.connected> "true" ;
+		<IdentifiedObject.name> "dcTermG1" ;
+		<DCTerminal.DCConductingEquipment> <urn:uuid:48a72159-14e5-409a-af7e-ad56c18a6986> ;
+		<DCBaseTerminal.DCNode> <urn:uuid:249c1fbb-af82-48ef-9fa7-6f97c237fb21> .
+
+	<urn:uuid:e768024e-1c0c-4c0f-b023-5deb11d64dfc> rdf:type <DCTerminal> ;
+		<ACDCTerminal.sequenceNumber> "1" ;
+		<ACDCTerminal.connected> "true" ;
+		<IdentifiedObject.name> "dcTermG2" ;
+		<DCTerminal.DCConductingEquipment> <urn:uuid:c5f9cc67-06f8-4806-abaa-c6c9ca43a05a> ;
+		<DCBaseTerminal.DCNode> <urn:uuid:ebd5e1b2-6775-4980-b112-1d7b974c747d> .
+
+	<urn:uuid:11d10c55-94cc-47e4-8e24-bc5ac4d026c0> rdf:type <DCLineSegment> ;
+		<DCLineSegment.resistance> "12.3" ;
+		<IdentifiedObject.name> "dcLine" ;
+		<Equipment.EquipmentContainer> <urn:uuid:4582859a_bf04_4d8b_9d4c_941b9300a418> .
+
+	<urn:uuid:5be89c2c-b370-46ce-8844-338414489fb3> rdf:type <DCTerminal> ;
+		<ACDCTerminal.sequenceNumber> "1" ;
+		<ACDCTerminal.connected> "true" ;
+		<IdentifiedObject.name> "dcTerm1" ;
+		<DCTerminal.DCConductingEquipment> <urn:uuid:11d10c55-94cc-47e4-8e24-bc5ac4d026c0> ;
+		<DCBaseTerminal.DCNode> <urn:uuid:d6fde9fc-7f90-43c5-b0a4-f930c46f52d3> .
+
+	<urn:uuid:d2dac22c-7798-4a59-b5db-3e4fd307abda> rdf:type <DCTerminal> ;
+		<ACDCTerminal.sequenceNumber> "2" ;
+		<ACDCTerminal.connected> "true" ;
+		<IdentifiedObject.name> "dcTerm2" ;
+		<DCTerminal.DCConductingEquipment> <urn:uuid:11d10c55-94cc-47e4-8e24-bc5ac4d026c0> ;
+		<DCBaseTerminal.DCNode> <urn:uuid:438f8a65-7c69-4881-a1f3-7b8f788eae70> .
+
+	<urn:uuid:31909ded-528f-46af-92a7-d47839d529bc> rdf:type <BaseVoltage> ;
+		<BaseVoltage.nominalVoltage> "400" ;
+		<IdentifiedObject.name> "400.00" .
+
+	<urn:uuid:3bbfa58a-a1ad-4b23-a526-3d76b096c1f4> rdf:type <VoltageLevel> ;
+		<IdentifiedObject.name> "VOL400" ;
+		<VoltageLevel.Substation> <urn:uuid:0466e7ba-c766-11e1-8775-005056c00008> ;
+		<VoltageLevel.BaseVoltage> <urn:uuid:31909ded-528f-46af-92a7-d47839d529bc> .
+
+	<urn:uuid:d68844a9-2c41-4798-9f83-5fdf4d1f3955> rdf:type <DCConverterUnit> ;
+		<DCConverterUnit.operationMode> "monopolarGroundReturn" ;
+		<IdentifiedObject.name> "DSC1" ;
+		<DCConverterUnit.Substation> <urn:uuid:0466e7ba-c766-11e1-8775-005056c00008> .
+
+	<urn:uuid:b08e9e50-4e0c-4ac0-9f21-4a27429caeb2> rdf:type <PowerTransformer> ;
+		<Equipment.aggregate> "false" ;
+		<IdentifiedObject.name> "PowTrans1" ;
+		<Equipment.EquipmentContainer> <urn:uuid:0466e7ba-c766-11e1-8775-005056c00008> .
+
+	<urn:uuid:917b6723-a6d0-429e-b26c-00a49333ccf6> rdf:type <PowerTransformerEnd> ;
+		<PowerTransformerEnd.b> "0" ;
+		<PowerTransformerEnd.connectionKind> "Y" ;
+		<PowerTransformerEnd.ratedS> "500" ;
+		<PowerTransformerEnd.ratedU> "220" ;
+		<PowerTransformerEnd.r> "0" ;
+		<PowerTransformerEnd.x> "0" ;
+		<TransformerEnd.endNumber> "2" ;
+		<IdentifiedObject.name> "PowTransend11" ;
+		<PowerTransformerEnd.PowerTransformer> <urn:uuid:b08e9e50-4e0c-4ac0-9f21-4a27429caeb2> ;
+		<TransformerEnd.Terminal> <urn:uuid:046ba2aa-c766-11e1-8775-005056c00008> ;
+		<TransformerEnd.BaseVoltage> <urn:uuid:60ee59f3-5ed7-4551-b623-f4346554b22a> .
+
+	<urn:uuid:739658a7-e08b-4395-8d79-93e87b7855e3> rdf:type <Terminal> ;
+		<ACDCTerminal.connected> "true" ;
+		<IdentifiedObject.name> "ConvTerm1" ;
+		<ACDCTerminal.sequenceNumber> "1" ;
+		<Terminal.ConductingEquipment> <urn:uuid:7393a68e-c4e6-48dd-9347-543858363fdb> .
+
+	<urn:uuid:a5bf9702-545a-437d-9663-773550202828> rdf:type <Terminal> ;
+		<ACDCTerminal.connected> "true" ;
+		<IdentifiedObject.name> "Term1" ;
+		<Terminal.ConductingEquipment> <urn:uuid:b08e9e50-4e0c-4ac0-9f21-4a27429caeb2> .
+
+	<urn:uuid:f6e9c313-d8c9-4d2f-85bc-e42a40ad56de> rdf:type <PowerTransformerEnd> ;
+		<PowerTransformerEnd.b> "0" ;
+		<PowerTransformerEnd.connectionKind> "Y" ;
+		<PowerTransformerEnd.ratedS> "500" ;
+		<PowerTransformerEnd.ratedU> "400" ;
+		<PowerTransformerEnd.r> "1.6" ;
+		<PowerTransformerEnd.x> "60" ;
+		<TransformerEnd.endNumber> "1" ;
+		<IdentifiedObject.name> "PowTransEnd12" ;
+		<PowerTransformerEnd.PowerTransformer> <urn:uuid:b08e9e50-4e0c-4ac0-9f21-4a27429caeb2> ;
+		<TransformerEnd.Terminal> <urn:uuid:a5bf9702-545a-437d-9663-773550202828> ;
+		<TransformerEnd.BaseVoltage> <urn:uuid:31909ded-528f-46af-92a7-d47839d529bc> .
+
+	<urn:uuid:97e7808e-80b4-4112-9708-800d7d5b879a> rdf:type <OperationalLimitSet> ;
+		<IdentifiedObject.name> "Ratings" ;
+		<OperationalLimitSet.Terminal> <urn:uuid:a5bf9702-545a-437d-9663-773550202828> .
+
+	<urn:uuid:a49f0f9c-5a89-4fea-92f5-c522cebe73b0> rdf:type <CurrentLimit> ;
+		<CurrentLimit.value> "721" ;
+		<IdentifiedObject.name> "Normal" ;
+		<OperationalLimit.OperationalLimitSet> <urn:uuid:97e7808e-80b4-4112-9708-800d7d5b879a> ;
+		<OperationalLimit.OperationalLimitType> <urn:uuid:c4604ca3-6418-41f9-95f8-c7217db17e90> .
+
+	<urn:uuid:d251fe95-995a-42ab-98be-3c4ef7c2a7b7> rdf:type <CurrentLimit> ;
+		<CurrentLimit.value> "1010" ;
+		<IdentifiedObject.name> "ShortTerm" ;
+		<OperationalLimit.OperationalLimitSet> <urn:uuid:97e7808e-80b4-4112-9708-800d7d5b879a> ;
+		<OperationalLimit.OperationalLimitType> <urn:uuid:7747fcd0-2c9e-4cc7-ade6-29e7b3338e71> .
+
+	<urn:uuid:7f747b03-865c-47b5-ac11-75fc4cf3dc75> rdf:type <CurrentLimit> ;
+		<CurrentLimit.value> "830" ;
+		<IdentifiedObject.name> "Emergency" ;
+		<OperationalLimit.OperationalLimitSet> <urn:uuid:97e7808e-80b4-4112-9708-800d7d5b879a> ;
+		<OperationalLimit.OperationalLimitType> <urn:uuid:8a32b9fd-35f1-4dae-a9d0-e9344ed07958> .
+
+	<urn:uuid:ee9505e1-96d7-49b3-9d1a-924397ffb27e> rdf:type <RatioTapChanger> ;
+		<RatioTapChanger.tculControlMode> "volt" ;
+		<RatioTapChanger.stepVoltageIncrement> "1.25" ;
+		<TapChanger.highStep> "5" ;
+		<TapChanger.lowStep> "1" ;
+		<TapChanger.ltcFlag> "false" ;
+		<TapChanger.neutralStep> "2" ;
+		<TapChanger.neutralU> "400" ;
+		<TapChanger.normalStep> "1" ;
+		<TapChanger.controlEnabled> "false" ;
+		<TapChanger.step> "1" ;
+		<IdentifiedObject.name> "rtc1" ;
+		<RatioTapChanger.TransformerEnd> <urn:uuid:f6e9c313-d8c9-4d2f-85bc-e42a40ad56de> .
+
+	<urn:uuid:04f97116-552a-4a34-afd9-4862f62ac7aa> rdf:type <VoltageLevel> ;
+		<IdentifiedObject.name> "VOLT400" ;
+		<VoltageLevel.Substation> <urn:uuid:045386c0-c766-11e1-8775-005056c00008> ;
+		<VoltageLevel.BaseVoltage> <urn:uuid:31909ded-528f-46af-92a7-d47839d529bc> .
+
+	<urn:uuid:cfff319b-96bb-4e41-af91-9c2071a5b6f3> rdf:type <DCConverterUnit> ;
+		<DCConverterUnit.operationMode> "monopolarGroundReturn" ;
+		<IdentifiedObject.name> "DSC2" ;
+		<DCConverterUnit.Substation> <urn:uuid:04631725-c766-11e1-8775-005056c00008> .
+
+	<urn:uuid:ffd940c8-03c8-4dcf-ad46-62018a0d813d> rdf:type <PowerTransformer> ;
+		<Equipment.aggregate> "false" ;
+		<IdentifiedObject.name> "PowTrans2" ;
+		<Equipment.EquipmentContainer> <urn:uuid:045386c0-c766-11e1-8775-005056c00008> .
+
+	<urn:uuid:9a0765f4-487a-43d1-9a52-36ac9627e260> rdf:type <PowerTransformerEnd> ;
+		<PowerTransformerEnd.b> "0" ;
+		<PowerTransformerEnd.connectionKind> "Y" ;
+		<PowerTransformerEnd.ratedS> "500" ;
+		<PowerTransformerEnd.ratedU> "220" ;
+		<PowerTransformerEnd.r> "0" ;
+		<PowerTransformerEnd.x> "0" ;
+		<TransformerEnd.endNumber> "2" ;
+		<IdentifiedObject.name> "PowTransend21" ;
+		<PowerTransformerEnd.PowerTransformer> <urn:uuid:ffd940c8-03c8-4dcf-ad46-62018a0d813d> ;
+		<TransformerEnd.Terminal> <urn:uuid:04479fea-c766-11e1-8775-005056c00008> ;
+		<TransformerEnd.BaseVoltage> <urn:uuid:60ee59f3-5ed7-4551-b623-f4346554b22a> .
+
+	<urn:uuid:d477c2cb-a43c-40fb-84d6-630a666feba1> rdf:type <OperationalLimitSet> ;
+		<IdentifiedObject.name> "Ratings" ;
+		<OperationalLimitSet.Terminal> <urn:uuid:04479fea-c766-11e1-8775-005056c00008> .
+
+	<urn:uuid:fd241f3f-0cba-45ee-95fa-6e220f5c4de4> rdf:type <CurrentLimit> ;
+		<CurrentLimit.value> "1312" ;
+		<IdentifiedObject.name> "Normal" ;
+		<OperationalLimit.OperationalLimitSet> <urn:uuid:d477c2cb-a43c-40fb-84d6-630a666feba1> ;
+		<OperationalLimit.OperationalLimitType> <urn:uuid:c4604ca3-6418-41f9-95f8-c7217db17e90> .
+
+	<urn:uuid:c40c3345-fd05-401c-8ae4-79fae3c126b2> rdf:type <CurrentLimit> ;
+		<CurrentLimit.value> "1840" ;
+		<IdentifiedObject.name> "ShortTerm" ;
+		<OperationalLimit.OperationalLimitSet> <urn:uuid:d477c2cb-a43c-40fb-84d6-630a666feba1> ;
+		<OperationalLimit.OperationalLimitType> <urn:uuid:7747fcd0-2c9e-4cc7-ade6-29e7b3338e71> .
+
+	<urn:uuid:6f333c8c-000d-47be-be33-26c5a2524361> rdf:type <CurrentLimit> ;
+		<CurrentLimit.value> "1510" ;
+		<IdentifiedObject.name> "Emergency" ;
+		<OperationalLimit.OperationalLimitSet> <urn:uuid:d477c2cb-a43c-40fb-84d6-630a666feba1> ;
+		<OperationalLimit.OperationalLimitType> <urn:uuid:8a32b9fd-35f1-4dae-a9d0-e9344ed07958> .
+
+	<urn:uuid:453bdc57-5855-4eb5-8712-d6a0255e0da8> rdf:type <Terminal> ;
+		<ACDCTerminal.connected> "true" ;
+		<IdentifiedObject.name> "ConvTerm2" ;
+		<ACDCTerminal.sequenceNumber> "1" ;
+		<Terminal.ConductingEquipment> <urn:uuid:9793118d-5ba1-4a9c-b2e0-db1d15be5913> .
+
+	<urn:uuid:c089eb25-9f67-4d82-88a8-635dd4808bae> rdf:type <Terminal> ;
+		<ACDCTerminal.connected> "true" ;
+		<IdentifiedObject.name> "Term2" ;
+		<Terminal.ConductingEquipment> <urn:uuid:ffd940c8-03c8-4dcf-ad46-62018a0d813d> .
+
+	<urn:uuid:a05f2948-9d3c-46c6-9aee-26edfb96d033> rdf:type <PowerTransformerEnd> ;
+		<PowerTransformerEnd.b> "0" ;
+		<PowerTransformerEnd.connectionKind> "Y" ;
+		<PowerTransformerEnd.ratedS> "500" ;
+		<PowerTransformerEnd.ratedU> "400" ;
+		<PowerTransformerEnd.r> "1.3" ;
+		<PowerTransformerEnd.x> "60" ;
+		<TransformerEnd.endNumber> "1" ;
+		<IdentifiedObject.name> "PowTransEnd22" ;
+		<PowerTransformerEnd.PowerTransformer> <urn:uuid:ffd940c8-03c8-4dcf-ad46-62018a0d813d> ;
+		<TransformerEnd.Terminal> <urn:uuid:c089eb25-9f67-4d82-88a8-635dd4808bae> ;
+		<TransformerEnd.BaseVoltage> <urn:uuid:31909ded-528f-46af-92a7-d47839d529bc> .
+
+	<urn:uuid:50397263-09ff-44ad-8acf-79f95fbdd842> rdf:type <OperationalLimitSet> ;
+		<IdentifiedObject.name> "Ratings" ;
+		<OperationalLimitSet.Terminal> <urn:uuid:c089eb25-9f67-4d82-88a8-635dd4808bae> .
+
+	<urn:uuid:a724785b-aff0-417e-822d-5d21db4ce3b9> rdf:type <CurrentLimit> ;
+		<CurrentLimit.value> "721" ;
+		<IdentifiedObject.name> "Normal" ;
+		<OperationalLimit.OperationalLimitSet> <urn:uuid:50397263-09ff-44ad-8acf-79f95fbdd842> ;
+		<OperationalLimit.OperationalLimitType> <urn:uuid:c4604ca3-6418-41f9-95f8-c7217db17e90> .
+
+	<urn:uuid:824bee98-c491-4860-8661-859583831537> rdf:type <CurrentLimit> ;
+		<CurrentLimit.value> "1010" ;
+		<IdentifiedObject.name> "ShortTerm" ;
+		<OperationalLimit.OperationalLimitSet> <urn:uuid:50397263-09ff-44ad-8acf-79f95fbdd842> ;
+		<OperationalLimit.OperationalLimitType> <urn:uuid:7747fcd0-2c9e-4cc7-ade6-29e7b3338e71> .
+
+	<urn:uuid:8e632970-cb95-4183-9e75-d22f2741768b> rdf:type <CurrentLimit> ;
+		<CurrentLimit.value> "830" ;
+		<IdentifiedObject.name> "Emergency" ;
+		<OperationalLimit.OperationalLimitSet> <urn:uuid:50397263-09ff-44ad-8acf-79f95fbdd842> ;
+		<OperationalLimit.OperationalLimitType> <urn:uuid:8a32b9fd-35f1-4dae-a9d0-e9344ed07958> .
+
+	<urn:uuid:ea8cd467-31f0-40dc-95d7-4064463724c4> rdf:type <RatioTapChanger> ;
+		<RatioTapChanger.tculControlMode> "volt" ;
+		<RatioTapChanger.stepVoltageIncrement> "1.25" ;
+		<TapChanger.highStep> "5" ;
+		<TapChanger.lowStep> "1" ;
+		<TapChanger.ltcFlag> "false" ;
+		<TapChanger.neutralStep> "2" ;
+		<TapChanger.neutralU> "400" ;
+		<TapChanger.normalStep> "1" ;
+		<TapChanger.controlEnabled> "false" ;
+		<TapChanger.step> "1" ;
+		<IdentifiedObject.name> "rtc2" ;
+		<RatioTapChanger.TransformerEnd> <urn:uuid:a05f2948-9d3c-46c6-9aee-26edfb96d033> .
+
+	<urn:uuid:668e32fb-495e-48a1-b5ac-44bfd769f514> rdf:type <DCConverterUnit> ;
+		<DCConverterUnit.operationMode> "monopolarGroundReturn" ;
+		<IdentifiedObject.name> "DSC1" ;
+		<DCConverterUnit.Substation> <urn:uuid:045386c0-c766-11e1-8775-005056c00008> .
+
+	<urn:uuid:b48ce7cf-abf5-413f-bc51-9e1d3103c9bd> rdf:type <VsConverter> ;
+		<VsConverter.maxModulationIndex> "0.85" ;
+		<VsConverter.droop> "0.05" ;
+		<VsConverter.droopCompensation> "0" ;
+		<VsConverter.pPccControl> "pPcc" ;
+		<VsConverter.qPccControl> "voltagePcc" ;
+		<VsConverter.qShare> "0" ;
+		<VsConverter.targetQpcc> "0" ;
+		<VsConverter.targetUpcc> "216" ;
+		<ACDCConverter.baseS> "160" ;
+		<ACDCConverter.idleLoss> "0.5" ;
+		<ACDCConverter.maxUdc> "400" ;
+		<ACDCConverter.minUdc> "205" ;
+		<ACDCConverter.ratedUdc> "360" ;
+		<ACDCConverter.resistiveLoss> "0" ;
+		<ACDCConverter.switchingLoss> "0" ;
+		<ACDCConverter.p> "-153.5" ;
+		<ACDCConverter.q> "0" ;
+		<ACDCConverter.targetPpcc> "-153.5" ;
+		<ACDCConverter.targetUdc> "0" ;
+		<IdentifiedObject.name> "VSC1" ;
+		<Equipment.EquipmentContainer> <urn:uuid:668e32fb-495e-48a1-b5ac-44bfd769f514> .
+
+	<urn:uuid:b46bfb8e-7af6-459e-acf3-53a42c943a7c> rdf:type <VsConverter> ;
+		<VsConverter.maxModulationIndex> "0.8" ;
+		<VsConverter.droop> "0.05" ;
+		<VsConverter.droopCompensation> "0" ;
+		<VsConverter.pPccControl> "udc" ;
+		<VsConverter.qPccControl> "voltagePcc" ;
+		<VsConverter.qShare> "0" ;
+		<VsConverter.targetQpcc> "0" ;
+		<VsConverter.targetUpcc> "213" ;
+		<ACDCConverter.baseS> "160" ;
+		<ACDCConverter.idleLoss> "0.5" ;
+		<ACDCConverter.maxUdc> "400" ;
+		<ACDCConverter.minUdc> "205" ;
+		<ACDCConverter.ratedUdc> "360" ;
+		<ACDCConverter.resistiveLoss> "0" ;
+		<ACDCConverter.switchingLoss> "0" ;
+		<ACDCConverter.p> "0" ;
+		<ACDCConverter.q> "0" ;
+		<ACDCConverter.targetPpcc> "0" ;
+		<ACDCConverter.targetUdc> "360" ;
+		<IdentifiedObject.name> "VSC2" ;
+		<Equipment.EquipmentContainer> <urn:uuid:e3b9894b-8a8b-4196-b8f1-3e181c33b885> .
+
+	<urn:uuid:e3b9894b-8a8b-4196-b8f1-3e181c33b885> rdf:type <DCConverterUnit> ;
+		<DCConverterUnit.operationMode> "monopolarGroundReturn" ;
+		<IdentifiedObject.name> "DSC1" ;
+		<DCConverterUnit.Substation> <urn:uuid:04745534-c766-11e1-8775-005056c00008> .
+
+	<urn:uuid:d9a49bc9-f4b8-4bfa-9d0f-d18f12f2575b> rdf:type <DCLineSegment> ;
+		<DCLineSegment.resistance> "8.3" ;
+		<DCLineSegment.length> "113.46" ;
+		<IdentifiedObject.name> "dcLine2" ;
+		<Equipment.EquipmentContainer> <urn:uuid:2e6903a5_4b7a_4f93_b6d0_e0c170fcf4fb> .
+
+	<urn:uuid:f6404e0a-fa77-4d84-b0cd-12eee8843d2e> rdf:type <DCGround> ;
+		<IdentifiedObject.name> "DCGnd3" ;
+		<Equipment.EquipmentContainer> <urn:uuid:668e32fb-495e-48a1-b5ac-44bfd769f514> .
+
+	<urn:uuid:49e0ea5a-0c03-419b-a78e-36fbe58c027f> rdf:type <DCGround> ;
+		<IdentifiedObject.name> "DCGnd4" ;
+		<Equipment.EquipmentContainer> <urn:uuid:e3b9894b-8a8b-4196-b8f1-3e181c33b885> .
+
+	<urn:uuid:412aed14-a85f-4828-a751-221172c48263> rdf:type <ACDCConverterDCTerminal> ;
+		<ACDCTerminal.sequenceNumber> "2" ;
+		<ACDCTerminal.connected> "true" ;
+		<IdentifiedObject.name> "DcTerm31" ;
+		<ACDCConverterDCTerminal.DCConductingEquipment> <urn:uuid:b48ce7cf-abf5-413f-bc51-9e1d3103c9bd> ;
+		<DCBaseTerminal.DCNode> <urn:uuid:7d0fc26a-de5c-4cc4-927d-c50c9918b9f0> .
+
+	<urn:uuid:61a0a556-ae4c-42a0-bda3-7423cea7e6ff> rdf:type <ACDCConverterDCTerminal> ;
+		<ACDCTerminal.sequenceNumber> "3" ;
+		<ACDCTerminal.connected> "true" ;
+		<IdentifiedObject.name> "DcTerm32" ;
+		<ACDCConverterDCTerminal.DCConductingEquipment> <urn:uuid:b48ce7cf-abf5-413f-bc51-9e1d3103c9bd> ;
+		<DCBaseTerminal.DCNode> <urn:uuid:fcdc13e3-1046-4568-8eac-dadbc7eb7b9c> .
+
+	<urn:uuid:7d0fc26a-de5c-4cc4-927d-c50c9918b9f0> rdf:type <DCNode> ;
+		<IdentifiedObject.name> "DCN31" ;
+		<DCNode.DCEquipmentContainer> <urn:uuid:668e32fb-495e-48a1-b5ac-44bfd769f514> .
+
+	<urn:uuid:fcdc13e3-1046-4568-8eac-dadbc7eb7b9c> rdf:type <DCNode> ;
+		<IdentifiedObject.name> "DCN32" ;
+		<DCNode.DCEquipmentContainer> <urn:uuid:668e32fb-495e-48a1-b5ac-44bfd769f514> .
+
+	<urn:uuid:6ba8fb67-7cd1-452d-a105-899d35f6d5a1> rdf:type <DCNode> ;
+		<IdentifiedObject.name> "DCN41" ;
+		<DCNode.DCEquipmentContainer> <urn:uuid:e3b9894b-8a8b-4196-b8f1-3e181c33b885> .
+
+	<urn:uuid:9620d493-bf05-4e51-8d83-ac28b3922475> rdf:type <DCNode> ;
+		<IdentifiedObject.name> "DCN42" ;
+		<DCNode.DCEquipmentContainer> <urn:uuid:e3b9894b-8a8b-4196-b8f1-3e181c33b885> .
+
+	<urn:uuid:e4b9540a-1a8c-4f8b-a8a5-b7c0dc0d1df8> rdf:type <ACDCConverterDCTerminal> ;
+		<ACDCTerminal.sequenceNumber> "2" ;
+		<ACDCTerminal.connected> "true" ;
+		<IdentifiedObject.name> "DcTerm41" ;
+		<ACDCConverterDCTerminal.DCConductingEquipment> <urn:uuid:b46bfb8e-7af6-459e-acf3-53a42c943a7c> ;
+		<DCBaseTerminal.DCNode> <urn:uuid:6ba8fb67-7cd1-452d-a105-899d35f6d5a1> .
+
+	<urn:uuid:3844652e-cd36-43e8-9e90-a1bbe2d85dfa> rdf:type <ACDCConverterDCTerminal> ;
+		<ACDCTerminal.sequenceNumber> "3" ;
+		<ACDCTerminal.connected> "true" ;
+		<IdentifiedObject.name> "DcTerm42" ;
+		<ACDCConverterDCTerminal.DCConductingEquipment> <urn:uuid:b46bfb8e-7af6-459e-acf3-53a42c943a7c> ;
+		<DCBaseTerminal.DCNode> <urn:uuid:9620d493-bf05-4e51-8d83-ac28b3922475> .
+
+	<urn:uuid:6bc9072c-735e-4016-9ae8-acc2d37f1fba> rdf:type <DCTerminal> ;
+		<ACDCTerminal.sequenceNumber> "1" ;
+		<ACDCTerminal.connected> "true" ;
+		<IdentifiedObject.name> "DcTermG3" ;
+		<DCTerminal.DCConductingEquipment> <urn:uuid:f6404e0a-fa77-4d84-b0cd-12eee8843d2e> ;
+		<DCBaseTerminal.DCNode> <urn:uuid:fcdc13e3-1046-4568-8eac-dadbc7eb7b9c> .
+
+	<urn:uuid:02d46e89-85fe-4756-aeb5-4869950f8776> rdf:type <DCTerminal> ;
+		<ACDCTerminal.sequenceNumber> "1" ;
+		<ACDCTerminal.connected> "true" ;
+		<IdentifiedObject.name> "DcTermG4" ;
+		<DCTerminal.DCConductingEquipment> <urn:uuid:49e0ea5a-0c03-419b-a78e-36fbe58c027f> ;
+		<DCBaseTerminal.DCNode> <urn:uuid:9620d493-bf05-4e51-8d83-ac28b3922475> .
+
+	<urn:uuid:bbc66594-69da-46d5-9a1b-2f4a706fb6a5> rdf:type <DCTerminal> ;
+		<ACDCTerminal.sequenceNumber> "2" ;
+		<ACDCTerminal.connected> "true" ;
+		<IdentifiedObject.name> "DcTerm3" ;
+		<DCTerminal.DCConductingEquipment> <urn:uuid:d9a49bc9-f4b8-4bfa-9d0f-d18f12f2575b> ;
+		<DCBaseTerminal.DCNode> <urn:uuid:7d0fc26a-de5c-4cc4-927d-c50c9918b9f0> .
+
+	<urn:uuid:600ea926-a53e-4f42-92b1-aa10bfeb79a5> rdf:type <DCTerminal> ;
+		<ACDCTerminal.sequenceNumber> "1" ;
+		<ACDCTerminal.connected> "true" ;
+		<IdentifiedObject.name> "DcTerm4" ;
+		<DCTerminal.DCConductingEquipment> <urn:uuid:d9a49bc9-f4b8-4bfa-9d0f-d18f12f2575b> ;
+		<DCBaseTerminal.DCNode> <urn:uuid:6ba8fb67-7cd1-452d-a105-899d35f6d5a1> .
+
+	<urn:uuid:6a131803-f462-47e2-bc21-bda919364fe9> rdf:type <SeriesCompensator> ;
+		<SeriesCompensator.r> "0" ;
+		<SeriesCompensator.x> "60" ;
+		<SeriesCompensator.varistorPresent> "false" ;
+		<SeriesCompensator.varistorRatedCurrent> "0" ;
+		<SeriesCompensator.varistorVoltageThreshold> "0" ;
+		<Equipment.aggregate> "false" ;
+		<IdentifiedObject.name> "reactor1" ;
+		<ConductingEquipment.BaseVoltage> <urn:uuid:60ee59f3-5ed7-4551-b623-f4346554b22a> ;
+		<Equipment.EquipmentContainer> <urn:uuid:668e32fb-495e-48a1-b5ac-44bfd769f514> .
+
+	<urn:uuid:9803b364-2a93-4f21-94b7-8bdbe27a16f2> rdf:type <SeriesCompensator> ;
+		<SeriesCompensator.r> "0" ;
+		<SeriesCompensator.x> "60" ;
+		<SeriesCompensator.varistorPresent> "false" ;
+		<SeriesCompensator.varistorRatedCurrent> "0" ;
+		<SeriesCompensator.varistorVoltageThreshold> "0" ;
+		<Equipment.aggregate> "false" ;
+		<IdentifiedObject.name> "reactor2" ;
+		<ConductingEquipment.BaseVoltage> <urn:uuid:60ee59f3-5ed7-4551-b623-f4346554b22a> ;
+		<Equipment.EquipmentContainer> <urn:uuid:e3b9894b-8a8b-4196-b8f1-3e181c33b885> .
+
+	<urn:uuid:ca0adad2-ffe3-4efa-b56b-7d333b8ae18f> rdf:type <Terminal> ;
+		<ACDCTerminal.connected> "true" ;
+		<IdentifiedObject.name> "reactor1" ;
+		<Terminal.phases> "ABC" ;
+		<ACDCTerminal.sequenceNumber> "2" ;
+		<Terminal.ConductingEquipment> <urn:uuid:6a131803-f462-47e2-bc21-bda919364fe9> .
+
+	<urn:uuid:afe0e60b-3870-44fb-ba93-a056228f9636> rdf:type <Terminal> ;
+		<ACDCTerminal.connected> "true" ;
+		<IdentifiedObject.name> "reactor2" ;
+		<Terminal.phases> "ABC" ;
+		<ACDCTerminal.sequenceNumber> "1" ;
+		<Terminal.ConductingEquipment> <urn:uuid:9803b364-2a93-4f21-94b7-8bdbe27a16f2> .
+
+	<urn:uuid:071bb138-ff00-4874-8acc-a884aa5cf4a9> rdf:type <Terminal> ;
+		<ACDCTerminal.connected> "true" ;
+		<IdentifiedObject.name> "vsc1" ;
+		<Terminal.phases> "ABC" ;
+		<ACDCTerminal.sequenceNumber> "1" ;
+		<Terminal.ConductingEquipment> <urn:uuid:b48ce7cf-abf5-413f-bc51-9e1d3103c9bd> .
+
+	<urn:uuid:a168e701-bd48-4f66-8f0b-0f69b2545530> rdf:type <Terminal> ;
+		<ACDCTerminal.connected> "true" ;
+		<IdentifiedObject.name> "vsc2" ;
+		<Terminal.phases> "ABC" ;
+		<ACDCTerminal.sequenceNumber> "1" ;
+		<Terminal.ConductingEquipment> <urn:uuid:b46bfb8e-7af6-459e-acf3-53a42c943a7c> .
+
+	<urn:uuid:4582859a_bf04_4d8b_9d4c_941b9300a418> rdf:type <DCLine> ;
+		<IdentifiedObject.name> "Line1" ;
+		<DCLine.Region> <urn:uuid:0472a781-c766-11e1-8775-005056c00008> .
+
+	<urn:uuid:2e6903a5_4b7a_4f93_b6d0_e0c170fcf4fb> rdf:type <DCLine> ;
+		<IdentifiedObject.name> "Line2" ;
+		<DCLine.Region> <urn:uuid:0472a781-c766-11e1-8775-005056c00008> .
+}

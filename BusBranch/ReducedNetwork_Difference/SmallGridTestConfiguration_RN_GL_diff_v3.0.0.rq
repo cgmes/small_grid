@@ -1,0 +1,619 @@
+BASE <http://iec.ch/TC57/2013/CIM-schema-cim16#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX cim: <http://iec.ch/TC57/2013/CIM-schema-cim16#>
+PREFIX entsoe: <http://entsoe.eu/CIM/SchemaExtension/3/1#>
+
+WITH <urn:uuid:6fdb7290-de0d-11e2-8f45-b8f6b1180b6d>
+DELETE {
+	<urn:uuid:6795f920-c964-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "4" ;
+		<PositionPoint.xPosition> "-4.312533378601074" ;
+		<PositionPoint.yPosition> "56.47551727294922" ;
+		<PositionPoint.Location> <urn:uuid:4fab3b40-c964-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:11d6fc00-c964-11e1-af5f-b8f6b1180b6d> rdf:type <Location> ;
+		<IdentifiedObject.name> "Location5" ;
+		<Location.CoordinateSystem> <urn:uuid:e4c22cb0-c8fc-11e1-bd6b-b8f6b1180b6d> ;
+		<Location.PowerSystemResources> <urn:uuid:048963d9-c766-11e1-8775-005056c00008> .
+
+	<urn:uuid:a17784f0-c965-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "1" ;
+		<PositionPoint.xPosition> "-4.229756832122803" ;
+		<PositionPoint.yPosition> "55.90764617919922" ;
+		<PositionPoint.Location> <urn:uuid:a1775de0-c965-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:9e365920-c964-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "5" ;
+		<PositionPoint.xPosition> "-4.229756832122803" ;
+		<PositionPoint.yPosition> "55.90764617919922" ;
+		<PositionPoint.Location> <urn:uuid:8ddc1970-c964-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:3871a4f2-c964-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "5" ;
+		<PositionPoint.xPosition> "-5.1712775230407715" ;
+		<PositionPoint.yPosition> "56.6935920715332" ;
+		<PositionPoint.Location> <urn:uuid:1fe305f0-c964-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:143d89d0-c966-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "1" ;
+		<PositionPoint.xPosition> "-4.229756832122803" ;
+		<PositionPoint.yPosition> "55.90764617919922" ;
+		<PositionPoint.Location> <urn:uuid:10dcf9b0-c966-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:a515d6d0-c964-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "2" ;
+		<PositionPoint.xPosition> "-3.782274007797241" ;
+		<PositionPoint.yPosition> "56.161380767822266" ;
+		<PositionPoint.Location> <urn:uuid:a515afc0-c964-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:e617a4c1-c963-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "2" ;
+		<PositionPoint.xPosition> "-3.798736095428467" ;
+		<PositionPoint.yPosition> "57.253135681152344" ;
+		<PositionPoint.Location> <urn:uuid:af7ff750-c963-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:10dcf9b0-c966-11e1-af5f-b8f6b1180b6d> rdf:type <Location> ;
+		<IdentifiedObject.name> "Location27" ;
+		<Location.CoordinateSystem> <urn:uuid:e4c22cb0-c8fc-11e1-bd6b-b8f6b1180b6d> ;
+		<Location.PowerSystemResources> <urn:uuid:0483be84-c766-11e1-8775-005056c00008> .
+
+	<urn:uuid:9e360b01-c964-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "2" ;
+		<PositionPoint.xPosition> "-3.9081737995147705" ;
+		<PositionPoint.yPosition> "56.30740737915039" ;
+		<PositionPoint.Location> <urn:uuid:8ddc1970-c964-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:07a14e70-c964-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "2" ;
+		<PositionPoint.xPosition> "-4.006237983703613" ;
+		<PositionPoint.yPosition> "56.88798904418945" ;
+		<PositionPoint.Location> <urn:uuid:f1674dd0-c963-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:91fc3392-c965-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "3" ;
+		<PositionPoint.xPosition> "-4.220531463623047" ;
+		<PositionPoint.yPosition> "56.048301696777344" ;
+		<PositionPoint.Location> <urn:uuid:8696ae00-c964-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:1fe305f0-c964-11e1-af5f-b8f6b1180b6d> rdf:type <Location> ;
+		<IdentifiedObject.name> "Location38" ;
+		<Location.CoordinateSystem> <urn:uuid:e4c22cb0-c8fc-11e1-bd6b-b8f6b1180b6d> ;
+		<Location.PowerSystemResources> <urn:uuid:04535fb7-c766-11e1-8775-005056c00008> .
+
+	<urn:uuid:7f68c230-c964-11e1-af5f-b8f6b1180b6d> rdf:type <Location> ;
+		<IdentifiedObject.name> "Location45" ;
+		<Location.CoordinateSystem> <urn:uuid:e4c22cb0-c8fc-11e1-bd6b-b8f6b1180b6d> ;
+		<Location.PowerSystemResources> <urn:uuid:045c8776-c766-11e1-8775-005056c00008> .
+
+	<urn:uuid:9e363211-c964-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "4" ;
+		<PositionPoint.xPosition> "-3.9415597915649414" ;
+		<PositionPoint.yPosition> "56.04899978637695" ;
+		<PositionPoint.Location> <urn:uuid:8ddc1970-c964-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:189c6201-c964-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "2" ;
+		<PositionPoint.xPosition> "-4.98079776763916" ;
+		<PositionPoint.yPosition> "56.939109802246094" ;
+		<PositionPoint.Location> <urn:uuid:11d6fc00-c964-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:189c8910-c964-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "3" ;
+		<PositionPoint.xPosition> "-4.506959915161133" ;
+		<PositionPoint.yPosition> "57.28456115722656" ;
+		<PositionPoint.Location> <urn:uuid:11d6fc00-c964-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:e617f2e1-c963-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "6" ;
+		<PositionPoint.xPosition> "-3.736232280731201" ;
+		<PositionPoint.yPosition> "56.70224380493164" ;
+		<PositionPoint.Location> <urn:uuid:af7ff750-c963-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:2e84f860-c992-11e1-9c61-406c8f32ef58> rdf:type <Location> ;
+		<IdentifiedObject.name> "Location60" ;
+		<Location.CoordinateSystem> <urn:uuid:e4c22cb0-c8fc-11e1-bd6b-b8f6b1180b6d> ;
+		<Location.PowerSystemResources> <urn:uuid:0474a358-c766-11e1-8775-005056c00008> .
+
+	<urn:uuid:af7ff750-c963-11e1-af5f-b8f6b1180b6d> rdf:type <Location> ;
+		<IdentifiedObject.name> "Location63" ;
+		<Location.CoordinateSystem> <urn:uuid:e4c22cb0-c8fc-11e1-bd6b-b8f6b1180b6d> ;
+		<Location.PowerSystemResources> <urn:uuid:044bbe91-c766-11e1-8775-005056c00008> .
+
+	<urn:uuid:91fc3390-c965-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "1" ;
+		<PositionPoint.xPosition> "-4.229756832122803" ;
+		<PositionPoint.yPosition> "55.90764617919922" ;
+		<PositionPoint.Location> <urn:uuid:8696ae00-c964-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:2e84f862-c992-11e1-9c61-406c8f32ef58> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "2" ;
+		<PositionPoint.xPosition> "-3.896653890609741" ;
+		<PositionPoint.yPosition> "56.66396713256836" ;
+		<PositionPoint.Location> <urn:uuid:2e84f860-c992-11e1-9c61-406c8f32ef58> .
+
+	<urn:uuid:e61819f2-c963-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "10" ;
+		<PositionPoint.xPosition> "-4.229756832122803" ;
+		<PositionPoint.yPosition> "55.90764617919922" ;
+		<PositionPoint.Location> <urn:uuid:af7ff750-c963-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:a17784f2-c965-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "3" ;
+		<PositionPoint.xPosition> "-4.844991207122803" ;
+		<PositionPoint.yPosition> "55.92612075805664" ;
+		<PositionPoint.Location> <urn:uuid:a1775de0-c965-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:a515afc0-c964-11e1-af5f-b8f6b1180b6d> rdf:type <Location> ;
+		<IdentifiedObject.name> "Location84" ;
+		<Location.CoordinateSystem> <urn:uuid:e4c22cb0-c8fc-11e1-bd6b-b8f6b1180b6d> ;
+		<Location.PowerSystemResources> <urn:uuid:04642896-c766-11e1-8775-005056c00008> .
+
+	<urn:uuid:2e851f70-c992-11e1-9c61-406c8f32ef58> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "3" ;
+		<PositionPoint.xPosition> "-3.8012895584106445" ;
+		<PositionPoint.yPosition> "56.75121307373047" ;
+		<PositionPoint.Location> <urn:uuid:2e84f860-c992-11e1-9c61-406c8f32ef58> .
+
+	<urn:uuid:b7206fb2-c992-11e1-9c61-406c8f32ef58> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "2" ;
+		<PositionPoint.xPosition> "-3.8253676891326904" ;
+		<PositionPoint.yPosition> "56.526123046875" ;
+		<PositionPoint.Location> <urn:uuid:b7206fb0-c992-11e1-9c61-406c8f32ef58> .
+
+	<urn:uuid:3871a4f1-c964-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "4" ;
+		<PositionPoint.xPosition> "-4.7540812492370605" ;
+		<PositionPoint.yPosition> "56.61738967895508" ;
+		<PositionPoint.Location> <urn:uuid:1fe305f0-c964-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:8696ae00-c964-11e1-af5f-b8f6b1180b6d> rdf:type <Location> ;
+		<IdentifiedObject.name> "Location90" ;
+		<Location.CoordinateSystem> <urn:uuid:e4c22cb0-c8fc-11e1-bd6b-b8f6b1180b6d> ;
+		<Location.PowerSystemResources> <urn:uuid:044b9789-c766-11e1-8775-005056c00008> .
+
+	<urn:uuid:9ef3ede1-c992-11e1-9c61-406c8f32ef58> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "1" ;
+		<PositionPoint.xPosition> "-4.229756832122803" ;
+		<PositionPoint.yPosition> "55.90764617919922" ;
+		<PositionPoint.Location> <urn:uuid:9ef3ede0-c992-11e1-9c61-406c8f32ef58> .
+
+	<urn:uuid:07a14e72-c964-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "4" ;
+		<PositionPoint.xPosition> "-3.9358420372009277" ;
+		<PositionPoint.yPosition> "57.11906433105469" ;
+		<PositionPoint.Location> <urn:uuid:f1674dd0-c963-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:e617cbd0-c963-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "3" ;
+		<PositionPoint.xPosition> "-3.937195062637329" ;
+		<PositionPoint.yPosition> "57.130340576171875" ;
+		<PositionPoint.Location> <urn:uuid:af7ff750-c963-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:a157d9e0-c963-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "4" ;
+		<PositionPoint.xPosition> "-4.029672145843506" ;
+		<PositionPoint.yPosition> "57.973060607910156" ;
+		<PositionPoint.Location> <urn:uuid:8fb53bb0-c963-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:e61819f0-c963-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "8" ;
+		<PositionPoint.xPosition> "-3.945202350616455" ;
+		<PositionPoint.yPosition> "56.2171516418457" ;
+		<PositionPoint.Location> <urn:uuid:af7ff750-c963-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:6795ab00-c964-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "1" ;
+		<PositionPoint.xPosition> "-4.844991207122803" ;
+		<PositionPoint.yPosition> "55.92612075805664" ;
+		<PositionPoint.Location> <urn:uuid:4fab3b40-c964-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:07a12760-c964-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "1" ;
+		<PositionPoint.xPosition> "-3.8012895584106445" ;
+		<PositionPoint.yPosition> "56.75121307373047" ;
+		<PositionPoint.Location> <urn:uuid:f1674dd0-c963-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:b72096c0-c992-11e1-9c61-406c8f32ef58> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "3" ;
+		<PositionPoint.xPosition> "-3.8012895584106445" ;
+		<PositionPoint.yPosition> "56.75121307373047" ;
+		<PositionPoint.Location> <urn:uuid:b7206fb0-c992-11e1-9c61-406c8f32ef58> .
+
+	<urn:uuid:becd3e60-c964-11e1-af5f-b8f6b1180b6d> rdf:type <Location> ;
+		<IdentifiedObject.name> "Location116" ;
+		<Location.CoordinateSystem> <urn:uuid:e4c22cb0-c8fc-11e1-bd6b-b8f6b1180b6d> ;
+		<Location.PowerSystemResources> <urn:uuid:04553477-c766-11e1-8775-005056c00008> .
+
+	<urn:uuid:189c8911-c964-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "4" ;
+		<PositionPoint.xPosition> "-4.240743160247803" ;
+		<PositionPoint.yPosition> "57.493682861328125" ;
+		<PositionPoint.Location> <urn:uuid:11d6fc00-c964-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:9e363210-c964-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "3" ;
+		<PositionPoint.xPosition> "-3.972602367401123" ;
+		<PositionPoint.yPosition> "56.22843933105469" ;
+		<PositionPoint.Location> <urn:uuid:8ddc1970-c964-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:8fb53bb0-c963-11e1-af5f-b8f6b1180b6d> rdf:type <Location> ;
+		<IdentifiedObject.name> "Location135" ;
+		<Location.CoordinateSystem> <urn:uuid:e4c22cb0-c8fc-11e1-bd6b-b8f6b1180b6d> ;
+		<Location.PowerSystemResources> <urn:uuid:044a5f09-c766-11e1-8775-005056c00008> .
+
+	<urn:uuid:7f68e940-c964-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "1" ;
+		<PositionPoint.xPosition> "-3.9825644493103027" ;
+		<PositionPoint.yPosition> "56.585201263427734" ;
+		<PositionPoint.Location> <urn:uuid:7f68c230-c964-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:6795d210-c964-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "2" ;
+		<PositionPoint.xPosition> "-4.5237836837768555" ;
+		<PositionPoint.yPosition> "56.114315032958984" ;
+		<PositionPoint.Location> <urn:uuid:4fab3b40-c964-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:07a14e71-c964-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "3" ;
+		<PositionPoint.xPosition> "-4.178804397583008" ;
+		<PositionPoint.yPosition> "57.002769470214844" ;
+		<PositionPoint.Location> <urn:uuid:f1674dd0-c963-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:143dd7f0-c966-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "4" ;
+		<PositionPoint.xPosition> "-3.2135214805603027" ;
+		<PositionPoint.yPosition> "55.907649993896484" ;
+		<PositionPoint.Location> <urn:uuid:10dcf9b0-c966-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:3871a4f0-c964-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "3" ;
+		<PositionPoint.xPosition> "-4.647715091705322" ;
+		<PositionPoint.yPosition> "56.39644241333008" ;
+		<PositionPoint.Location> <urn:uuid:1fe305f0-c964-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:07a17581-c964-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "6" ;
+		<PositionPoint.xPosition> "-4.240743160247803" ;
+		<PositionPoint.yPosition> "57.493682861328125" ;
+		<PositionPoint.Location> <urn:uuid:f1674dd0-c963-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:6795f922-c964-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "6" ;
+		<PositionPoint.xPosition> "-3.8012895584106445" ;
+		<PositionPoint.yPosition> "56.75121307373047" ;
+		<PositionPoint.Location> <urn:uuid:4fab3b40-c964-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:a157b2d0-c963-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "2" ;
+		<PositionPoint.xPosition> "-3.3406713008880615" ;
+		<PositionPoint.yPosition> "58.31454086303711" ;
+		<PositionPoint.Location> <urn:uuid:8fb53bb0-c963-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:189c6200-c964-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "1" ;
+		<PositionPoint.xPosition> "-5.185546875" ;
+		<PositionPoint.yPosition> "56.788841247558594" ;
+		<PositionPoint.Location> <urn:uuid:11d6fc00-c964-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:becd6572-c964-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "3" ;
+		<PositionPoint.xPosition> "-3.0734457969665527" ;
+		<PositionPoint.yPosition> "56.47311019897461" ;
+		<PositionPoint.Location> <urn:uuid:becd3e60-c964-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:becd6570-c964-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "1" ;
+		<PositionPoint.xPosition> "-3.8397421836853027" ;
+		<PositionPoint.yPosition> "56.39110565185547" ;
+		<PositionPoint.Location> <urn:uuid:becd3e60-c964-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:a515afc1-c964-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "1" ;
+		<PositionPoint.xPosition> "-3.8397421836853027" ;
+		<PositionPoint.yPosition> "56.39110565185547" ;
+		<PositionPoint.Location> <urn:uuid:a515afc0-c964-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:e61819f1-c963-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "9" ;
+		<PositionPoint.xPosition> "-4.097933292388916" ;
+		<PositionPoint.yPosition> "56.05133819580078" ;
+		<PositionPoint.Location> <urn:uuid:af7ff750-c963-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:91fc3391-c965-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "2" ;
+		<PositionPoint.xPosition> "-4.2209882736206055" ;
+		<PositionPoint.yPosition> "56.04134750366211" ;
+		<PositionPoint.Location> <urn:uuid:8696ae00-c964-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:91fc5aa0-c965-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "4" ;
+		<PositionPoint.xPosition> "-4.207784175872803" ;
+		<PositionPoint.yPosition> "56.241817474365234" ;
+		<PositionPoint.Location> <urn:uuid:8696ae00-c964-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:9e360b00-c964-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "1" ;
+		<PositionPoint.xPosition> "-3.8397421836853027" ;
+		<PositionPoint.yPosition> "56.39110565185547" ;
+		<PositionPoint.Location> <urn:uuid:8ddc1970-c964-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:3871cc00-c964-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "6" ;
+		<PositionPoint.xPosition> "-5.185546875" ;
+		<PositionPoint.yPosition> "56.788841247558594" ;
+		<PositionPoint.Location> <urn:uuid:1fe305f0-c964-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:38717de0-c964-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "1" ;
+		<PositionPoint.xPosition> "-4.844991207122803" ;
+		<PositionPoint.yPosition> "55.92612075805664" ;
+		<PositionPoint.Location> <urn:uuid:1fe305f0-c964-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:a157d9e2-c963-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "6" ;
+		<PositionPoint.xPosition> "-4.405538082122803" ;
+		<PositionPoint.yPosition> "57.53498840332031" ;
+		<PositionPoint.Location> <urn:uuid:8fb53bb0-c963-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:e617a4c0-c963-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "1" ;
+		<PositionPoint.xPosition> "-4.405538082122803" ;
+		<PositionPoint.yPosition> "57.53498840332031" ;
+		<PositionPoint.Location> <urn:uuid:af7ff750-c963-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:f1674dd0-c963-11e1-af5f-b8f6b1180b6d> rdf:type <Location> ;
+		<IdentifiedObject.name> "Location185" ;
+		<Location.CoordinateSystem> <urn:uuid:e4c22cb0-c8fc-11e1-bd6b-b8f6b1180b6d> ;
+		<Location.PowerSystemResources> <urn:uuid:045a3d89-c766-11e1-8775-005056c00008> .
+
+	<urn:uuid:b7206fb0-c992-11e1-9c61-406c8f32ef58> rdf:type <Location> ;
+		<IdentifiedObject.name> "Location187" ;
+		<Location.CoordinateSystem> <urn:uuid:e4c22cb0-c8fc-11e1-bd6b-b8f6b1180b6d> ;
+		<Location.PowerSystemResources> <urn:uuid:0484f709-c766-11e1-8775-005056c00008> .
+
+	<urn:uuid:6795d211-c964-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "3" ;
+		<PositionPoint.xPosition> "-4.27651309967041" ;
+		<PositionPoint.yPosition> "56.258567810058594" ;
+		<PositionPoint.Location> <urn:uuid:4fab3b40-c964-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:143db0e1-c966-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "3" ;
+		<PositionPoint.xPosition> "-3.5378243923187256" ;
+		<PositionPoint.yPosition> "55.880706787109375" ;
+		<PositionPoint.Location> <urn:uuid:10dcf9b0-c966-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:7f68e941-c964-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "2" ;
+		<PositionPoint.xPosition> "-4.093289375305176" ;
+		<PositionPoint.yPosition> "56.416770935058594" ;
+		<PositionPoint.Location> <urn:uuid:7f68c230-c964-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:4fab3b40-c964-11e1-af5f-b8f6b1180b6d> rdf:type <Location> ;
+		<IdentifiedObject.name> "Location197" ;
+		<Location.CoordinateSystem> <urn:uuid:e4c22cb0-c8fc-11e1-bd6b-b8f6b1180b6d> ;
+		<Location.PowerSystemResources> <urn:uuid:045ed162-c766-11e1-8775-005056c00008> .
+
+	<urn:uuid:e617f2e2-c963-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "7" ;
+		<PositionPoint.xPosition> "-3.4531500339508057" ;
+		<PositionPoint.yPosition> "56.41122817993164" ;
+		<PositionPoint.Location> <urn:uuid:af7ff750-c963-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:a1578bc0-c963-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "1" ;
+		<PositionPoint.xPosition> "-3.339864492416382" ;
+		<PositionPoint.yPosition> "58.50086212158203" ;
+		<PositionPoint.Location> <urn:uuid:8fb53bb0-c963-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:e617f2e0-c963-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "5" ;
+		<PositionPoint.xPosition> "-4.230815887451172" ;
+		<PositionPoint.yPosition> "56.84672546386719" ;
+		<PositionPoint.Location> <urn:uuid:af7ff750-c963-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:2e84f861-c992-11e1-9c61-406c8f32ef58> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "1" ;
+		<PositionPoint.xPosition> "-3.9825644493103027" ;
+		<PositionPoint.yPosition> "56.585201263427734" ;
+		<PositionPoint.Location> <urn:uuid:2e84f860-c992-11e1-9c61-406c8f32ef58> .
+
+	<urn:uuid:a17784f1-c965-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "2" ;
+		<PositionPoint.xPosition> "-4.576691150665283" ;
+		<PositionPoint.yPosition> "55.91806411743164" ;
+		<PositionPoint.Location> <urn:uuid:a1775de0-c965-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:a157d9e1-c963-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "5" ;
+		<PositionPoint.xPosition> "-4.254667282104492" ;
+		<PositionPoint.yPosition> "57.71146774291992" ;
+		<PositionPoint.Location> <urn:uuid:8fb53bb0-c963-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:143db0e0-c966-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "2" ;
+		<PositionPoint.xPosition> "-3.9550986289978027" ;
+		<PositionPoint.yPosition> "55.84601593017578" ;
+		<PositionPoint.Location> <urn:uuid:10dcf9b0-c966-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:9ef414f1-c992-11e1-9c61-406c8f32ef58> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "3" ;
+		<PositionPoint.xPosition> "-3.7573447227478027" ;
+		<PositionPoint.yPosition> "56.06129837036133" ;
+		<PositionPoint.Location> <urn:uuid:9ef3ede0-c992-11e1-9c61-406c8f32ef58> .
+
+	<urn:uuid:a515d6d1-c964-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "3" ;
+		<PositionPoint.xPosition> "-3.7573447227478027" ;
+		<PositionPoint.yPosition> "56.06129837036133" ;
+		<PositionPoint.Location> <urn:uuid:a515afc0-c964-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:b7206fb1-c992-11e1-9c61-406c8f32ef58> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "1" ;
+		<PositionPoint.xPosition> "-3.8397421836853027" ;
+		<PositionPoint.yPosition> "56.39110565185547" ;
+		<PositionPoint.Location> <urn:uuid:b7206fb0-c992-11e1-9c61-406c8f32ef58> .
+
+	<urn:uuid:38717de1-c964-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "2" ;
+		<PositionPoint.xPosition> "-4.759231090545654" ;
+		<PositionPoint.yPosition> "56.13128662109375" ;
+		<PositionPoint.Location> <urn:uuid:1fe305f0-c964-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:e617cbd1-c963-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "4" ;
+		<PositionPoint.xPosition> "-4.201076030731201" ;
+		<PositionPoint.yPosition> "57.0054817199707" ;
+		<PositionPoint.Location> <urn:uuid:af7ff750-c963-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:a1775de0-c965-11e1-af5f-b8f6b1180b6d> rdf:type <Location> ;
+		<IdentifiedObject.name> "Location242" ;
+		<Location.CoordinateSystem> <urn:uuid:e4c22cb0-c8fc-11e1-bd6b-b8f6b1180b6d> ;
+		<Location.PowerSystemResources> <urn:uuid:0468e382-c766-11e1-8775-005056c00008> .
+
+	<urn:uuid:becd6571-c964-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "2" ;
+		<PositionPoint.xPosition> "-3.289849281311035" ;
+		<PositionPoint.yPosition> "56.42715835571289" ;
+		<PositionPoint.Location> <urn:uuid:becd3e60-c964-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:a157b2d1-c963-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "3" ;
+		<PositionPoint.xPosition> "-3.6551620960235596" ;
+		<PositionPoint.yPosition> "58.135623931884766" ;
+		<PositionPoint.Location> <urn:uuid:8fb53bb0-c963-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:8ddc1970-c964-11e1-af5f-b8f6b1180b6d> rdf:type <Location> ;
+		<IdentifiedObject.name> "Location253" ;
+		<Location.CoordinateSystem> <urn:uuid:e4c22cb0-c8fc-11e1-bd6b-b8f6b1180b6d> ;
+		<Location.PowerSystemResources> <urn:uuid:047f78c2-c766-11e1-8775-005056c00008> .
+
+	<urn:uuid:07a17580-c964-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "5" ;
+		<PositionPoint.xPosition> "-3.7830588817596436" ;
+		<PositionPoint.yPosition> "57.261314392089844" ;
+		<PositionPoint.Location> <urn:uuid:f1674dd0-c963-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:6795f921-c964-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "5" ;
+		<PositionPoint.xPosition> "-4.094065189361572" ;
+		<PositionPoint.yPosition> "56.59203338623047" ;
+		<PositionPoint.Location> <urn:uuid:4fab3b40-c964-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:7f68e942-c964-11e1-af5f-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "3" ;
+		<PositionPoint.xPosition> "-4.207784175872803" ;
+		<PositionPoint.yPosition> "56.241817474365234" ;
+		<PositionPoint.Location> <urn:uuid:7f68c230-c964-11e1-af5f-b8f6b1180b6d> .
+
+	<urn:uuid:9ef414f0-c992-11e1-9c61-406c8f32ef58> rdf:type <PositionPoint> ;
+		<PositionPoint.sequenceNumber> "2" ;
+		<PositionPoint.xPosition> "-3.939201831817627" ;
+		<PositionPoint.yPosition> "56.00222396850586" ;
+		<PositionPoint.Location> <urn:uuid:9ef3ede0-c992-11e1-9c61-406c8f32ef58> .
+
+	<urn:uuid:9ef3ede0-c992-11e1-9c61-406c8f32ef58> rdf:type <Location> ;
+		<IdentifiedObject.name> "Location277" ;
+		<Location.CoordinateSystem> <urn:uuid:e4c22cb0-c8fc-11e1-bd6b-b8f6b1180b6d> ;
+		<Location.PowerSystemResources> <urn:uuid:04614263-c766-11e1-8775-005056c00008> .
+
+	<urn:uuid:d33d4850-c8ff-11e1-bd6b-b8f6b1180b6d> rdf:type <Location> ;
+		<IdentifiedObject.name> "Location88" ;
+		<Location.CoordinateSystem> <urn:uuid:e4c22cb0-c8fc-11e1-bd6b-b8f6b1180b6d> ;
+		<Location.PowerSystemResources> <urn:uuid:045beb3a-c766-11e1-8775-005056c00008> .
+
+	<urn:uuid:d33d4851-c8ff-11e1-bd6b-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.xPosition> "-3.7573447227478027" ;
+		<PositionPoint.yPosition> "56.06129837036133" ;
+		<PositionPoint.Location> <urn:uuid:d33d4850-c8ff-11e1-bd6b-b8f6b1180b6d> .
+
+	<urn:uuid:e4c1de90-c8fc-11e1-bd6b-b8f6b1180b6d> rdf:type <Location> ;
+		<IdentifiedObject.name> "Location71" ;
+		<Location.CoordinateSystem> <urn:uuid:e4c22cb0-c8fc-11e1-bd6b-b8f6b1180b6d> ;
+		<Location.PowerSystemResources> <urn:uuid:048badc8-c766-11e1-8775-005056c00008> .
+
+	<urn:uuid:e4c205a0-c8fc-11e1-bd6b-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.xPosition> "-5.185546875" ;
+		<PositionPoint.yPosition> "56.788841247558594" ;
+		<PositionPoint.Location> <urn:uuid:e4c1de90-c8fc-11e1-bd6b-b8f6b1180b6d> .
+
+	<urn:uuid:0afb42c0-c8ff-11e1-bd6b-b8f6b1180b6d> rdf:type <Location> ;
+		<IdentifiedObject.name> "Location260" ;
+		<Location.CoordinateSystem> <urn:uuid:e4c22cb0-c8fc-11e1-bd6b-b8f6b1180b6d> ;
+		<Location.PowerSystemResources> <urn:uuid:046030f9-c766-11e1-8775-005056c00008> .
+
+	<urn:uuid:0afb42c1-c8ff-11e1-bd6b-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.xPosition> "-3.339864492416382" ;
+		<PositionPoint.yPosition> "58.50086212158203" ;
+		<PositionPoint.Location> <urn:uuid:0afb42c0-c8ff-11e1-bd6b-b8f6b1180b6d> .
+
+	<urn:uuid:18d9ad00-c8ff-11e1-bd6b-b8f6b1180b6d> rdf:type <Location> ;
+		<IdentifiedObject.name> "Location31" ;
+		<Location.CoordinateSystem> <urn:uuid:e4c22cb0-c8fc-11e1-bd6b-b8f6b1180b6d> ;
+		<Location.PowerSystemResources> <urn:uuid:0474f171-c766-11e1-8775-005056c00008> .
+
+	<urn:uuid:18d9ad01-c8ff-11e1-bd6b-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.xPosition> "-4.207784175872803" ;
+		<PositionPoint.yPosition> "56.241817474365234" ;
+		<PositionPoint.Location> <urn:uuid:18d9ad00-c8ff-11e1-bd6b-b8f6b1180b6d> .
+
+	<urn:uuid:f6d04c00-c8fe-11e1-bd6b-b8f6b1180b6d> rdf:type <Location> ;
+		<IdentifiedObject.name> "Location172" ;
+		<Location.CoordinateSystem> <urn:uuid:e4c22cb0-c8fc-11e1-bd6b-b8f6b1180b6d> ;
+		<Location.PowerSystemResources> <urn:uuid:046eafe6-c766-11e1-8775-005056c00008> .
+
+	<urn:uuid:f6d04c01-c8fe-11e1-bd6b-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.xPosition> "-4.229756832122803" ;
+		<PositionPoint.yPosition> "55.90764617919922" ;
+		<PositionPoint.Location> <urn:uuid:f6d04c00-c8fe-11e1-bd6b-b8f6b1180b6d> .
+
+	<urn:uuid:1c866150-c8ff-11e1-bd6b-b8f6b1180b6d> rdf:type <Location> ;
+		<IdentifiedObject.name> "Location263" ;
+		<Location.CoordinateSystem> <urn:uuid:e4c22cb0-c8fc-11e1-bd6b-b8f6b1180b6d> ;
+		<Location.PowerSystemResources> <urn:uuid:0476510a-c766-11e1-8775-005056c00008> .
+
+	<urn:uuid:1c866151-c8ff-11e1-bd6b-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.xPosition> "-3.9825644493103027" ;
+		<PositionPoint.yPosition> "56.585201263427734" ;
+		<PositionPoint.Location> <urn:uuid:1c866150-c8ff-11e1-bd6b-b8f6b1180b6d> .
+
+	<urn:uuid:ebc01cf0-c8fe-11e1-bd6b-b8f6b1180b6d> rdf:type <Location> ;
+		<IdentifiedObject.name> "Location77" ;
+		<Location.CoordinateSystem> <urn:uuid:e4c22cb0-c8fc-11e1-bd6b-b8f6b1180b6d> ;
+		<Location.PowerSystemResources> <urn:uuid:045dbff3-c766-11e1-8775-005056c00008> .
+
+	<urn:uuid:ebc01cf1-c8fe-11e1-bd6b-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.xPosition> "-4.844991207122803" ;
+		<PositionPoint.yPosition> "55.92612075805664" ;
+		<PositionPoint.Location> <urn:uuid:ebc01cf0-c8fe-11e1-bd6b-b8f6b1180b6d> .
+
+	<urn:uuid:e2ffaa40-c8fe-11e1-bd6b-b8f6b1180b6d> rdf:type <Location> ;
+		<IdentifiedObject.name> "Location111" ;
+		<Location.CoordinateSystem> <urn:uuid:e4c22cb0-c8fc-11e1-bd6b-b8f6b1180b6d> ;
+		<Location.PowerSystemResources> <urn:uuid:044ca8f4-c766-11e1-8775-005056c00008> .
+
+	<urn:uuid:e2ffaa41-c8fe-11e1-bd6b-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.xPosition> "-4.240743160247803" ;
+		<PositionPoint.yPosition> "57.493682861328125" ;
+		<PositionPoint.Location> <urn:uuid:e2ffaa40-c8fe-11e1-bd6b-b8f6b1180b6d> .
+
+	<urn:uuid:296e84b0-c8ff-11e1-bd6b-b8f6b1180b6d> rdf:type <Location> ;
+		<IdentifiedObject.name> "Location33" ;
+		<Location.CoordinateSystem> <urn:uuid:e4c22cb0-c8fc-11e1-bd6b-b8f6b1180b6d> ;
+		<Location.PowerSystemResources> <urn:uuid:04640189-c766-11e1-8775-005056c00008> .
+
+	<urn:uuid:296e84b1-c8ff-11e1-bd6b-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.xPosition> "-3.8397421836853027" ;
+		<PositionPoint.yPosition> "56.39110565185547" ;
+		<PositionPoint.Location> <urn:uuid:296e84b0-c8ff-11e1-bd6b-b8f6b1180b6d> .
+
+	<urn:uuid:08513160-c8ff-11e1-bd6b-b8f6b1180b6d> rdf:type <Location> ;
+		<IdentifiedObject.name> "Location213" ;
+		<Location.CoordinateSystem> <urn:uuid:e4c22cb0-c8fc-11e1-bd6b-b8f6b1180b6d> ;
+		<Location.PowerSystemResources> <urn:uuid:0453add1-c766-11e1-8775-005056c00008> .
+
+	<urn:uuid:08515870-c8ff-11e1-bd6b-b8f6b1180b6d> rdf:type <PositionPoint> ;
+		<PositionPoint.xPosition> "-4.405538082122803" ;
+		<PositionPoint.yPosition> "57.53498840332031" ;
+		<PositionPoint.Location> <urn:uuid:08513160-c8ff-11e1-bd6b-b8f6b1180b6d> .
+}
